@@ -57,7 +57,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-            className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 text-foreground drop-shadow-sm whitespace-nowrap"
+            className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 text-foreground drop-shadow-sm leading-tight"
           >
             Premium Comfort at <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-500">Rahul Apartment</span>
           </motion.h1>
