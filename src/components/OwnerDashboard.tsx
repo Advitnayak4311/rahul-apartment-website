@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Users, MessageSquare, IndianRupee, Settings, LogOut, CheckCircle, Clock } from 'lucide-react';
+import { Calendar, Users, MessageSquare, IndianRupee, LogOut, CheckCircle, Clock } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import { useNavigate } from 'react-router-dom';
 
