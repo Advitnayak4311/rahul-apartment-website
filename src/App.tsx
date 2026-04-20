@@ -8,6 +8,7 @@ import { Booking } from './components/Booking';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { FAQ } from './components/FAQ';
+import { RoomService } from './components/RoomService';
 import { WhatsAppFAB } from './components/WhatsAppFAB';
 import { OwnerDashboard } from './components/OwnerDashboard';
 
@@ -22,6 +23,7 @@ function LandingPage() {
         <Gallery />
         <Booking />
         <FAQ />
+        <RoomService />
         <Contact />
       </main>
       <Footer />
